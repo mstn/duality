@@ -66,3 +66,6 @@ Imo Cycle run is equivalent to a diagram of this shape, where `d` are drivers, `
    +-----+    |  f  +-+
 +-------------+-----+
 ```
+### Other kinds of tensor products
+
+Observable composition is implemented with the union type (|). As observed in Abramsky [6], the tensor product can be interpreted as a cartesian product (x), this is equivalent to synchronous composition. It could be interesting to do some experiments with intersection types (&), too.
